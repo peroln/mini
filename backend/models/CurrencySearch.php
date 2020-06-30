@@ -73,10 +73,10 @@ class CurrencySearch extends Currency
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id' => $this->id,
+            'currencies.id' => $this->id,
         ])
         ->andFilterWhere(['like', 'quotations.value', $this->value])
-        ->andFilterWhere(['like', 'quotations.server_time', $this->server_time]);
+        ->andFilterWhere(['like', 'quotations.server_time', strtotime($this->server_time)]);
 
 
         $query->andFilterWhere(['like', 'name', $this->name])
