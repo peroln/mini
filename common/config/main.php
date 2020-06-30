@@ -12,4 +12,5 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
     ],
+    'defaultRoute' => 'currency/index',
 ];
