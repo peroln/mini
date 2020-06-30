@@ -1,0 +1,145 @@
+.navbar-inverse {
+    background: linear-gradient(#4c8aca, #0947a5);
+    border-color: #ececec;
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: 600;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:white;
+}
+.status_icon {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display:inline-block;
+    margin:10px;
+    border: 0.5px solid black;
+}
+.status_icon.status_0 {
+    background:#eee;
+}
+.status_icon.status_1 {
+    background:#eee;
+}
+.status_icon.status_2 {
+    background:#00cc00;
+}
+.status_icon.status_3 {
+    background:#ffcc00;
+}
+.status_icon.status_4 {
+    background:#337ab7;
+}
+.status_icon.status_5 {
+    background:#FF0039;
+}
+.group_container .list>div {
+    border-bottom:1px solid #eee;
+}
+.col-lg-3 h2{
+    height: 60px;
+}
+.col-lg-3 p{
+    height: 70px;
+}
+.custom-trade a{
+    width: 100%;
+    background: white;
+    margin: 3px;
+}
+.custom-trade a.btn:hover{
+    width: 100%;
+    background: white;
+    margin: 3px;
+}
+.custom-trade .form-control{
+    margin: 3px;
+}
+.custom-trade .btn-primary{
+    color: #337ab7;
+}
+.custom-trade .btn-success{
+    color: #5cb85c;;
+}
+.custom-trade .btn-danger{
+    color: #d9534f;
+}
+.navbar-inverse .navbar-nav > li.red > a{
+    color: #d9534f;
+}
+
+.noti-count{
+    margin: 3px;
+    height: 17px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    right: 25px;
+}
+.open .noti-count{
+   color: black;
+}
+.user-placeholder{
+    max-height: 22px;
+}
+
+.label{
+    text-shadow: none;
+    padding: 1px 4px;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}
+.nav .dropdown-menu li > form > button.logout {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+}
+
+.nb-spinner {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    background: transparent;
+    border-top: 4px solid #03A9F4;
+    border-right: 4px solid transparent;
+    border-radius: 50%;
+    -webkit-animation: 1s spin linear infinite;
+    animation: 1s spin linear infinite;
+}
+
+.noty_theme__mint.noty_bar {
+	border-radius:0;
+}
+
+.dropdown-header {
+	padding: 3px 13px;
+}
+.dropdown-header i {
+	margin-right: 3px;
+}
+.dropdown-menu {
+	border: 1px solid rgb(29, 91, 176);
+	border-top:0;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background:transparent;
+}
