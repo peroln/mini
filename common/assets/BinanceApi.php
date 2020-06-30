@@ -6,7 +6,7 @@ use Binance\API;
 class BinanceApi extends API
 {
     protected $sapi = 'https://api.binance.com/';
-    private $subscriptions = []; // /< View all websocket subscriptions
+    protected $subscriptions = []; // /< View all websocket subscriptions
     static $proxy=[];
     /**
      * httpRequest curl wrapper for all http api requests.
@@ -24,7 +24,7 @@ class BinanceApi extends API
      * @return array containing the response
      * @throws \Exception
      */
-    private function httpRequest(string $url, string $method = "GET", array $params = [], bool $signed = false)
+    protected function httpRequest(string $url, string $method = "GET", array $params = [], bool $signed = false)
     {
         $real_base=$this->base;
         if(strpos($url,'sapi/')!==false)
